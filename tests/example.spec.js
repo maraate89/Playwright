@@ -11,3 +11,4 @@ const browser = await chromium.launch({headless: false, slowMo:500,devtools:true
   console.log(`El título de la página es: ${titulo}`);
   await browser.close();
 })();
+
